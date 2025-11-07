@@ -4,15 +4,6 @@
 
 Bu proje, HTML, CSS ve JavaScript kullanılarak oluşturulmuş, zengin özelliklere sahip bir bilgi yarışması platformudur. 2 ila 10 arasında dinamik olarak oluşturulan grupların yarışmasına olanak tanır, şıklı ve klasik soru tiplerini destekler ve yarışma yöneticisi için tam zamanlayıcı kontrolü sunar.
 
-## 📸 Ekran Görüntüleri
-
-![Ana Ekran](https://i.hizliresim.com/7i8owp3.png "Ana Ekran")
-![Grup Oluşturma](https://i.hizliresim.com/cx3rngo.png "Grup Oluşturma")
-![Klasik Soru Ekranı](https://i.hizliresim.com/ssxx8w4.png "Klasik Soru Ekranı")
-![Şıklı Soru Ekranı](https://i.hizliresim.com/jejpedg.png "Şıklı Soru Ekranı")
-![Sonuç Ekranı](https://i.hizliresim.com/9iis8hf.png "Sonuç Ekranı")
-![Podyum](https://i.hizliresim.com/f71rnix.png "Yarışma Sonu Podyumu")
-
 ## ✨ Özellikler
 
 Bu projede yer alan temel özellikler:
@@ -47,6 +38,15 @@ Bu projede yer alan temel özellikler:
 * **🚀 HTML5:** Uygulamanın temel iskeleti ve ekranları.
 * **🎨 CSS3:** Modern ve canlı bir görünüm için (Flexbox, Grid, Gradient arka planlar, gölgeler ve animasyonlar).
 * **🧠 JavaScript:** Tüm oyun mantığı, zamanlayıcılar, dinamik HTML manipülasyonu, grup yönetimi ve ekran geçişleri.
+
+## 📸 Ekran Görüntüleri
+
+![Ana Ekran](https://i.hizliresim.com/7i8owp3.png "Ana Ekran")
+![Grup Oluşturma](https://i.hizliresim.com/cx3rngo.png "Grup Oluşturma")
+![Klasik Soru Ekranı](https://i.hizliresim.com/ssxx8w4.png "Klasik Soru Ekranı")
+![Şıklı Soru Ekranı](https://i.hizliresim.com/jejpedg.png "Şıklı Soru Ekranı")
+![Sonuç Ekranı](https://i.hizliresim.com/9iis8hf.png "Sonuç Ekranı")
+![Podyum](https://i.hizliresim.com/f71rnix.png "Yarışma Sonu Podyumu")
 
 ## 🚀 Kurulum ve Çalıştırma
 
