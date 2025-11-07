@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgi Yarışması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="background-music" src="music.mp3" loop></audio>
+
+    <div id="home-screen" class="screen active">
+        <h1>Bilgi Yarışması</h1>
+        <p id="app-description">
+            <b>Sizin için hazırlamış olduğumuz bilgi yarışmasına hepiniz hoş geldiniz.</b>
+        </p>
+        <p id="app-description">
+            Açıklama alanı. (İstediğiniz gibi doldurabilirsiniz.)
+        </p>
+        <p id="app-description">
+            <b>Hepinize başarılar dileriz..</b>
+        </p>
+        <button id="groups-btn">Grupları Yönet</button>
+        <button id="start-btn" disabled>Başlat</button>
+        <p id="start-validation-msg" class="validation-msg">Oyun için en az 2 grup oluşturmalısınız.</p>
+    </div>
+
+    <div id="groups-screen" class="screen">
+        <h2>Grup Yönetimi</h2>
+        <p>En az 2, en fazla 10 grup ekleyebilirsiniz.</p>
+        <div class="group-input-area">
+            <input type="text" id="group-name-input" placeholder="Grup Adı Girin...">
+            <button id="add-group-btn">Ekle</button>
+        </div>
+        <p id="group-validation-msg" class="validation-msg"></p>
+        
+        <div id="group-list-container">
+            <h3>Gruplar:</h3>
+            <ul id="group-list">
+                </ul>
+        </div>
+        
+        <button id="save-groups-btn">Kaydet ve Geri Dön</button>
+    </div>
+
+    <div id="question-screen" class="screen">
+        <div id="question-category">Kategori: Genel Kültür</div>
+        <div id="question-counter">Soru: 1 / 7</div>
+        
+        <div id="timer">60</div>
+        
+        <div id="question-container">
+            <p id="question-text">Soru metni buraya gelecek...</p>
+        </div>
+        
+        <div id="options-container">
+            </div>
+        
+        <div class="timer-controls">
+            <button id="pause-btn" class="control-btn">Durdur</button>
+            <button id="resume-btn" class="control-btn hidden">Devam Ettir</button>
+            <button id="finish-btn" class="control-btn">Süreyi Bitir</button>
+        </div>
+        <button id="show-results-btn" class="hidden">Sonuçlar</button>
+    </div>
+
+    <div id="results-screen" class="screen">
+        <h2>Süre Doldu!</h2>
+        
+        <div id="result-options-container">
+            </div>
+
+        <div class="correct-answer">
+            <strong>Doğru Cevap:</strong>
+            <p id="correct-answer-text">Doğru cevap metni buraya gelecek.</p>
+        </div>
+        
+        <h3>Puan Girişi</h3>
+        <p>Lütfen grupların puanlarını elle girin:</p>
+        
+        <div class="score-inputs" id="dynamic-score-inputs">
+            </div>
+        
+        <button id="submit-scores-btn">Puanları Kaydet ve Devam Et</button>
+    </div>
+
+    <div id="scoreboard-screen" class="screen">
+        <h2>Puan Durumu</h2>
+        
+        <div class="leaderboard" id="dynamic-leaderboard">
+            </div>
+        
+        <button id="continue-game-btn">Yarışmaya Devam Et</button>
+    </div>
+
+    <div id="trophy-screen" class="screen">
+        <h2>Yarışma Bitti!</h2>
+        <p>İşte Podyum!</p>
+
+        <div class="podium">
+            <div class="podium-item silver">
+                <div class="podium-rank">2</div>
+                <div id="winner-2-name">...</div>
+                <div id="winner-2-score">Puan: 0</div>
+            </div>
+            <div class="podium-item gold">
+                <div class="podium-rank">1</div>
+                <div id="winner-1-name">...</div>
+                <div id="winner-1-score">Puan: 0</div>
+            </div>
+            <div class="podium-item bronze">
+                <div class="podium-rank">3</div>
+                <div id="winner-3-name">...</div>
+                <div id="winner-3-score">Puan: 0</div>
+            </div>
+        </div>
+        <button id="restart-btn">Yeni Oyun</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
